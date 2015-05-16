@@ -11,7 +11,7 @@ using System.Xml;
 
 namespace Sistem_Booking_Hotel
 {   
-    ///SVN test
+    ///SVN test 2
     //public class configconn
     //{
     //    public static SqlConnection conn;
