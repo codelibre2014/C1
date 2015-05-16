@@ -647,3 +647,48 @@ C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hot
 C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
 C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe.manifest
 C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.application
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.manifest
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.application
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Controls.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Imaging.dll
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Controls.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Imaging.xml
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe.manifest
+D:\Development\ISA Source Code Library\C1\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.application

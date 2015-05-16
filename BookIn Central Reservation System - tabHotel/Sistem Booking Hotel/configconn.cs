@@ -10,7 +10,8 @@ using System.IO;
 using System.Xml;
 
 namespace Sistem_Booking_Hotel
-{
+{   
+    ///SVN test
     //public class configconn
     //{
     //    public static SqlConnection conn;
