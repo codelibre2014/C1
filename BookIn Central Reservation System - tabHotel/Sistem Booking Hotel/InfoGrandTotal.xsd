@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InfoGrandTotal" targetNamespace="http://tempuri.org/InfoGrandTotal.xsd" xmlns:mstns="http://tempuri.org/InfoGrandTotal.xsd" xmlns="http://tempuri.org/InfoGrandTotal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectName="SELECT bok.booking_id, t.tamu, /*sum(p.jumlahpayment) as nominal,*/ 100-(SELECT bd.harga*100 FROM Booking_Diskon bd WHERE bd.booking_diskon_id=bok.booking_diskon_id) AS diskon_r, ISNULL((SELECT SUM(tag_kamar) FROM Reservasi WHERE booking_id=bok.booking_id),0) AS tag_kamar, /*s(elect sum(tag_restoran) from Reservasi where booking_id=bok.booking_id) as all_tag_other,*/ ( ISNULL((SELECT SUM(ps.harga) FROM Pemesanan ps INNER JOIN Reservasi res ON ps.reservasi_id=res.reservasi_id INNER JOIN Item it ON ps.item_id=it.item_id INNER JOIN Item_Tipe itt ON it.item_tipe_id=itt.item_tipe_id WHERE res.booking_id = bok.booking_id AND itt.item_tipe= 'Makanan') , 0) + ISNULL((SELECT SUM(hs.Biaya) FROM HRestaurant hs INNER JOIN Reservasi res ON hs.reservasi_id=res.reservasi_id WHERE (flag = 'B') AND res.booking_id= bok.booking_id) , 0) ) AS tag_restoran, ( ISNULL((SELECT SUM(ps.harga) FROM Pemesanan ps INNER JOIN Reservasi res ON ps.reservasi_id=res.reservasi_id INNER JOIN Item it ON ps.item_id=it.item_id INNER JOIN Item_Tipe itt ON it.item_tipe_id=itt.item_tipe_id WHERE res.booking_id = bok.booking_id AND itt.item_tipe= 'Transport') , 0) ) AS tag_transport, ( ISNULL((SELECT SUM(ps.harga) FROM Pemesanan ps INNER JOIN Reservasi res ON ps.reservasi_id=res.reservasi_id INNER JOIN Item it ON ps.item_id=it.item_id INNER JOIN Item_Tipe itt ON it.item_tipe_id=itt.item_tipe_id WHERE res.booking_id = bok.booking_id AND itt.item_tipe= 'Laundry') , 0) ) AS tag_laundry, ( ISNULL((SELECT SUM(ps.harga) FROM Pemesanan ps INNER JOIN Reservasi res ON ps.reservasi_id=res.reservasi_id INNER JOIN Item it ON ps.item_id=it.item_id INNER JOIN Item_Tipe itt ON it.item_tipe_id=itt.item_tipe_id WHERE res.booking_id = bok.booking_id AND itt.item_tipe= 'Lainnya') , 0) ) AS tag_lainnya, ISNULL((SELECT SUM(jumlahpayment) FROM pembayaran WHERE booking_id=bok.booking_id),0) AS total_credit FROM Booking bok INNER JOIN Tamu t ON bok.tamu_id=t.tamu_id LEFT JOIN pembayaran p ON bok.booking_id=p.booking_id WHERE CONVERT(date,p.tggalpayment) = @tglpayment GROUP BY bok.booking_id, t.tamu, bok.booking_diskon_id" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>--use hoteldb
+--declare @tglpayment date = '2014-11-12'
+
+select a.*, a.tag_kamar+a.tag_restoran+a.tag_transport+a.tag_laundry+a.tag_lainnya as 'grand_total',
+	(a.tag_kamar*a.diskon_r)/100 as 'diskon',
+	(a.tag_kamar+a.tag_restoran+a.tag_transport+a.tag_laundry+a.tag_lainnya)-
+	((a.tag_kamar*a.diskon_r)/100)- a.total_credit as 'balance_due'
+from
+(
+	select bok.booking_id, t.tamu, --sum(p.jumlahpayment) as nominal,
+		100-(select bd.harga*100 from Booking_Diskon bd where bd.booking_diskon_id=bok.booking_diskon_id) as diskon_r,
+		ISNULL((select sum(tag_kamar) from Reservasi where booking_id=bok.booking_id),0) as tag_kamar,
+		--(select sum(tag_restoran) from Reservasi where booking_id=bok.booking_id) as all_tag_other,
+		(
+			ISNULL((select sum(ps.harga)
+			from Pemesanan ps inner join Reservasi res on ps.reservasi_id=res.reservasi_id
+				inner join Item it on ps.item_id=it.item_id
+				inner join Item_Tipe itt on it.item_tipe_id=itt.item_tipe_id
+			where res.booking_id = bok.booking_id and itt.item_tipe= 'Makanan') , 0)
+			+
+			ISNULL((select sum(hs.Biaya)
+			from HRestaurant hs inner join Reservasi res on hs.reservasi_id=res.reservasi_id
+			where (flag = 'B') AND res.booking_id= bok.booking_id) , 0)
+		) as tag_restoran,
+		(	
+			ISNULL((select sum(ps.harga)
+			from Pemesanan ps inner join Reservasi res on ps.reservasi_id=res.reservasi_id
+				inner join Item it on ps.item_id=it.item_id
+				inner join Item_Tipe itt on it.item_tipe_id=itt.item_tipe_id
+			where res.booking_id = bok.booking_id and itt.item_tipe= 'Transport') , 0)
+		) as tag_transport,
+		(	
+			ISNULL((select sum(ps.harga)
+			from Pemesanan ps inner join Reservasi res on ps.reservasi_id=res.reservasi_id
+				inner join Item it on ps.item_id=it.item_id
+				inner join Item_Tipe itt on it.item_tipe_id=itt.item_tipe_id
+			where res.booking_id = bok.booking_id and itt.item_tipe= 'Laundry') , 0)
+		) as tag_laundry,
+		(	
+			ISNULL((select sum(ps.harga)
+			from Pemesanan ps inner join Reservasi res on ps.reservasi_id=res.reservasi_id
+				inner join Item it on ps.item_id=it.item_id
+				inner join Item_Tipe itt on it.item_tipe_id=itt.item_tipe_id
+			where res.booking_id = bok.booking_id and itt.item_tipe= 'Lainnya') , 0)
+		) as tag_lainnya,
+		ISNULL((select sum(jumlahpayment) from pembayaran where booking_id=bok.booking_id),0) as total_credit
+	from Booking bok inner join Tamu t on bok.tamu_id=t.tamu_id
+		left join pembayaran p on bok.booking_id=p.booking_id
+	where convert(date,p.tggalpayment) = @tglpayment
+	group by bok.booking_id, t.tamu, bok.booking_diskon_id
+) a</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="tglpayment" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@tglpayment" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="booking_id" DataSetColumn="booking_id" />
+              <Mapping SourceColumn="tamu" DataSetColumn="tamu" />
+              <Mapping SourceColumn="tag_kamar" DataSetColumn="tag_kamar" />
+              <Mapping SourceColumn="tag_restoran" DataSetColumn="tag_restoran" />
+              <Mapping SourceColumn="tag_transport" DataSetColumn="tag_transport" />
+              <Mapping SourceColumn="total_credit" DataSetColumn="total_credit" />
+              <Mapping SourceColumn="diskon_r" DataSetColumn="diskon_r" />
+              <Mapping SourceColumn="tag_laundry" DataSetColumn="tag_laundry" />
+              <Mapping SourceColumn="tag_lainnya" DataSetColumn="tag_lainnya" />
+              <Mapping SourceColumn="grand_total" DataSetColumn="grand_total" />
+              <Mapping SourceColumn="diskon" DataSetColumn="diskon" />
+              <Mapping SourceColumn="balance_due" DataSetColumn="balance_due" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InfoGrandTotal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="InfoGrandTotal" msprop:Generator_UserDSName="InfoGrandTotal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="booking_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnbooking_id" msprop:Generator_ColumnPropNameInRow="booking_id" msprop:Generator_ColumnPropNameInTable="booking_idColumn" msprop:Generator_UserColumnName="booking_id" type="xs:long" />
+              <xs:element name="tamu" msprop:Generator_ColumnVarNameInTable="columntamu" msprop:Generator_ColumnPropNameInRow="tamu" msprop:Generator_ColumnPropNameInTable="tamuColumn" msprop:Generator_UserColumnName="tamu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tag_kamar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntag_kamar" msprop:Generator_ColumnPropNameInRow="tag_kamar" msprop:Generator_ColumnPropNameInTable="tag_kamarColumn" msprop:Generator_UserColumnName="tag_kamar" type="xs:double" minOccurs="0" />
+              <xs:element name="tag_restoran" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntag_restoran" msprop:Generator_ColumnPropNameInRow="tag_restoran" msprop:Generator_ColumnPropNameInTable="tag_restoranColumn" msprop:Generator_UserColumnName="tag_restoran" type="xs:double" minOccurs="0" />
+              <xs:element name="tag_transport" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntag_transport" msprop:Generator_ColumnPropNameInRow="tag_transport" msprop:Generator_ColumnPropNameInTable="tag_transportColumn" msprop:Generator_UserColumnName="tag_transport" type="xs:double" minOccurs="0" />
+              <xs:element name="total_credit" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntotal_credit" msprop:Generator_ColumnPropNameInRow="total_credit" msprop:Generator_ColumnPropNameInTable="total_creditColumn" msprop:Generator_UserColumnName="total_credit" type="xs:long" minOccurs="0" />
+              <xs:element name="diskon_r" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndiskon_r" msprop:Generator_ColumnPropNameInRow="diskon_r" msprop:Generator_ColumnPropNameInTable="diskon_rColumn" msprop:Generator_UserColumnName="diskon_r" type="xs:double" minOccurs="0" />
+              <xs:element name="tag_laundry" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntag_laundry" msprop:Generator_ColumnPropNameInRow="tag_laundry" msprop:Generator_ColumnPropNameInTable="tag_laundryColumn" msprop:Generator_UserColumnName="tag_laundry" type="xs:double" minOccurs="0" />
+              <xs:element name="tag_lainnya" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntag_lainnya" msprop:Generator_ColumnPropNameInRow="tag_lainnya" msprop:Generator_ColumnPropNameInTable="tag_lainnyaColumn" msprop:Generator_UserColumnName="tag_lainnya" type="xs:double" minOccurs="0" />
+              <xs:element name="grand_total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columngrand_total" msprop:Generator_ColumnPropNameInRow="grand_total" msprop:Generator_ColumnPropNameInTable="grand_totalColumn" msprop:Generator_UserColumnName="grand_total" type="xs:double" minOccurs="0" />
+              <xs:element name="diskon" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndiskon" msprop:Generator_ColumnPropNameInRow="diskon" msprop:Generator_ColumnPropNameInTable="diskonColumn" msprop:Generator_UserColumnName="diskon" type="xs:double" minOccurs="0" />
+              <xs:element name="balance_due" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnbalance_due" msprop:Generator_ColumnPropNameInRow="balance_due" msprop:Generator_ColumnPropNameInTable="balance_dueColumn" msprop:Generator_UserColumnName="balance_due" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

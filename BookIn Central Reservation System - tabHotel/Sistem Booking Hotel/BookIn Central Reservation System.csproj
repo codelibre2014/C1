@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50BD2AB2-E30E-47FC-91E5-817C1F175DF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sistem_Booking_Hotel</RootNamespace>
+    <AssemblyName>BookIn Central Reservation System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Program Files\BookIn Central Reservation System\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>94453895BA035DDEF70F4751BC9304B8F080F655</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BookIn Central Reservation System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>checkin.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>lib\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>.\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common.resources, Version=12.0.0.0, Culture=de, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.ReportViewer.Common.resources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.SqlEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlWmiManagement, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.SqlWmiManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.WmiEnum, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Microsoft SQL Server\120\SDK\Assemblies\Microsoft.SqlServer.WmiEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess">
+      <HintPath>bin\Debug\ext_lib\Telerik.OpenAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="configconn.cs" />
+    <Compile Include="CustomInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomInstaller.Designer.cs">
+      <DependentUpon>CustomInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseConnectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatabaseConnectionForm.Designer.cs">
+      <DependentUpon>DatabaseConnectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataKamar.designer.cs">
+      <DependentUpon>DataKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetInfoTagihan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetInfoTagihan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSTopCorp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSTopCorp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoGrandTotal.cs">
+      <DependentUpon>InfoGrandTotal.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InfoGrandTotal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfoGrandTotal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoKontrolKeuanganDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoKontrolKeuanganDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoKontrolKeuanganDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoKontrolKeuanganDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoPendapatanRestoran.cs">
+      <DependentUpon>infoPendapatanRestoran.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="infoPendapatanRestoran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoPendapatanRestoran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoSubPendapatan.cs">
+      <DependentUpon>infoSubPendapatan.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="infoSubPendapatan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoSubPendapatan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoTagihanLunasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoTagihanLunasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoTagihan_delete.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoTagihan_delete.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InfoTandaTangan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfoTandaTangan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="laporanWNA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>laporanWNA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LastPayment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LastPayment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressIndicator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressIndicator.Designer.cs">
+      <DependentUpon>ProgressIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerial.Designer.cs">
+      <DependentUpon>FormSerial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUtama.Designer.cs">
+      <DependentUpon>FormUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HapusKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HapusKamar.designer.cs">
+      <DependentUpon>HapusKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infoBooking.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoBooking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoHotel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoHotel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoPembayaran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoPembayaran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoPemesanan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoPemesanan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoPendapatan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoPendapatan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="infoReservasi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>infoReservasi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inforRestoran.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inforRestoran.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kamar_Ubah_Hapus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kamar_Ubah_Hapus.designer.cs">
+      <DependentUpon>kamar_Ubah_Hapus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingNetwork.cs" />
+    <Compile Include="teboweb.cs" />
+    <Compile Include="TambahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TambahKamar.designer.cs">
+      <DependentUpon>TambahKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahKamar.designer.cs">
+      <DependentUpon>UbahKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs" />
+    <EmbeddedResource Include="Invoice_Booking_mulia_live.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Booking - tab - Copy.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Booking_tab_bak.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanTandaTangan.rdlc" />
+    <EmbeddedResource Include="LaporanTopCorp.rdlc" />
+    <EmbeddedResource Include="laporanWNA.rdlc" />
+    <EmbeddedResource Include="DatabaseConnectionForm.resx">
+      <DependentUpon>DatabaseConnectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataKamar.resx">
+      <DependentUpon>DataKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSerial.resx">
+      <DependentUpon>FormSerial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUtama.resx">
+      <DependentUpon>FormUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HapusKamar.resx">
+      <DependentUpon>HapusKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceRestoran.rdlc" />
+    <EmbeddedResource Include="Invoice_Booking.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice_Booking_mulia_bak.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kamar_Ubah_Hapus.resx">
+      <DependentUpon>kamar_Ubah_Hapus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanPendapatanRestoran.rdlc" />
+    <EmbeddedResource Include="Laporan_Kontrol_Keuangan.rdlc" />
+    <EmbeddedResource Include="Laporan_Tagihan_Lunas - Copy.rdlc" />
+    <EmbeddedResource Include="Laporan_Tagihan_Lunas.rdlc" />
+    <EmbeddedResource Include="Laporan_Pendapatan_Harian.rdlc" />
+    <EmbeddedResource Include="Laporan_Tagihan_Harian.rdlc" />
+    <EmbeddedResource Include="Laporan_Tagihan.rdlc" />
+    <EmbeddedResource Include="Laporan_TagihanLunas_delete.rdlc" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressIndicator.resx">
+      <DependentUpon>ProgressIndicator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Tagihan_Harian_delete.rdlc" />
+    <EmbeddedResource Include="Report_GrandTotal_delete.rdlc" />
+    <EmbeddedResource Include="SubLaporan_Pendapatan_Harian.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TambahKamar.resx">
+      <DependentUpon>TambahKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahKamar.resx">
+      <DependentUpon>UbahKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookIn Central Reservation System_TemporaryKey.pfx" />
+    <None Include="DataSetInfoTagihan.xsc">
+      <DependentUpon>DataSetInfoTagihan.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetInfoTagihan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetInfoTagihan.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetInfoTagihan.xss">
+      <DependentUpon>DataSetInfoTagihan.xsd</DependentUpon>
+    </None>
+    <None Include="DSTopCorp.xsc">
+      <DependentUpon>DSTopCorp.xsd</DependentUpon>
+    </None>
+    <None Include="DSTopCorp.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSTopCorp.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSTopCorp.xss">
+      <DependentUpon>DSTopCorp.xsd</DependentUpon>
+    </None>
+    <None Include="infoBooking.xsc">
+      <DependentUpon>infoBooking.xsd</DependentUpon>
+    </None>
+    <None Include="infoBooking.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoBooking.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoBooking.xss">
+      <DependentUpon>infoBooking.xsd</DependentUpon>
+    </None>
+    <None Include="InfoGrandTotal.xsc">
+      <DependentUpon>InfoGrandTotal.xsd</DependentUpon>
+    </None>
+    <None Include="InfoGrandTotal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InfoGrandTotal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="InfoGrandTotal.xss">
+      <DependentUpon>InfoGrandTotal.xsd</DependentUpon>
+    </None>
+    <None Include="infoHotel.xsc">
+      <DependentUpon>infoHotel.xsd</DependentUpon>
+    </None>
+    <None Include="infoHotel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoHotel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="infoHotel.xss">
+      <DependentUpon>infoHotel.xsd</DependentUpon>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet.xsc">
+      <DependentUpon>infoKontrolKeuanganDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoKontrolKeuanganDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet.xss">
+      <DependentUpon>infoKontrolKeuanganDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet2.xsc">
+      <DependentUpon>infoKontrolKeuanganDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoKontrolKeuanganDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoKontrolKeuanganDataSet2.xss">
+      <DependentUpon>infoKontrolKeuanganDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="infoPembayaran.xsc">
+      <DependentUpon>infoPembayaran.xsd</DependentUpon>
+    </None>
+    <None Include="infoPembayaran.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoPembayaran.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoPembayaran.xss">
+      <DependentUpon>infoPembayaran.xsd</DependentUpon>
+    </None>
+    <None Include="infoPemesanan.xsc">
+      <DependentUpon>infoPemesanan.xsd</DependentUpon>
+    </None>
+    <None Include="infoPemesanan.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoPemesanan.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoPemesanan.xss">
+      <DependentUpon>infoPemesanan.xsd</DependentUpon>
+    </None>
+    <None Include="infoPendapatan.xsc">
+      <DependentUpon>infoPendapatan.xsd</DependentUpon>
+    </None>
+    <None Include="infoPendapatan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoPendapatan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="infoPendapatan.xss">
+      <DependentUpon>infoPendapatan.xsd</DependentUpon>
+    </None>
+    <None Include="infoPendapatanRestoran.xsc">
+      <DependentUpon>infoPendapatanRestoran.xsd</DependentUpon>
+    </None>
+    <None Include="infoPendapatanRestoran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoPendapatanRestoran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="infoPendapatanRestoran.xss">
+      <DependentUpon>infoPendapatanRestoran.xsd</DependentUpon>
+    </None>
+    <None Include="infoReservasi.xsc">
+      <DependentUpon>infoReservasi.xsd</DependentUpon>
+    </None>
+    <None Include="infoReservasi.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoReservasi.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoReservasi.xss">
+      <DependentUpon>infoReservasi.xsd</DependentUpon>
+    </None>
+    <None Include="inforRestoran.xsc">
+      <DependentUpon>inforRestoran.xsd</DependentUpon>
+    </None>
+    <None Include="inforRestoran.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inforRestoran.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="inforRestoran.xss">
+      <DependentUpon>inforRestoran.xsd</DependentUpon>
+    </None>
+    <None Include="infoSubPendapatan.xsc">
+      <DependentUpon>infoSubPendapatan.xsd</DependentUpon>
+    </None>
+    <None Include="infoSubPendapatan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoSubPendapatan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="infoSubPendapatan.xss">
+      <DependentUpon>infoSubPendapatan.xsd</DependentUpon>
+    </None>
+    <None Include="infoTagihanLunasDataSet.xsc">
+      <DependentUpon>infoTagihanLunasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="infoTagihanLunasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoTagihanLunasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoTagihanLunasDataSet.xss">
+      <DependentUpon>infoTagihanLunasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="infoTagihan_delete.xsc">
+      <DependentUpon>infoTagihan_delete.xsd</DependentUpon>
+    </None>
+    <None Include="infoTagihan_delete.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>infoTagihan_delete.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="infoTagihan_delete.xss">
+      <DependentUpon>infoTagihan_delete.xsd</DependentUpon>
+    </None>
+    <None Include="InfoTandaTangan.xsc">
+      <DependentUpon>InfoTandaTangan.xsd</DependentUpon>
+    </None>
+    <None Include="InfoTandaTangan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InfoTandaTangan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="InfoTandaTangan.xss">
+      <DependentUpon>InfoTandaTangan.xsd</DependentUpon>
+    </None>
+    <None Include="laporanWNA.xsc">
+      <DependentUpon>laporanWNA.xsd</DependentUpon>
+    </None>
+    <None Include="laporanWNA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>laporanWNA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="laporanWNA.xss">
+      <DependentUpon>laporanWNA.xsd</DependentUpon>
+    </None>
+    <None Include="LastPayment.xsc">
+      <DependentUpon>LastPayment.xsd</DependentUpon>
+    </None>
+    <None Include="LastPayment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LastPayment.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LastPayment.xss">
+      <DependentUpon>LastPayment.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="checkin.ico" />
+    <Content Include="HMulia.ico" />
+    <None Include="Resources\smoke.png" />
+    <None Include="Resources\nosmoke.png" />
+    <None Include="Resources\ED1.png" />
+    <None Include="Resources\ED.png" />
+    <None Include="Resources\housekeeping 2.jpg" />
+    <None Include="Resources\bell_and_book.jpg" />
+    <EmbeddedResource Include="sql.txt" />
+    <None Include="Resources\checkin.png" />
+    <None Include="bin\Debug\gambar\room.jpg" />
+    <None Include="bin\Debug\gambar\calender.jpg" />
+    <None Include="bin\Debug\gambar\service.jpg" />
+    <None Include="bin\Debug\gambar\maintenance.jpg" />
+    <None Include="bin\Debug\gambar\guest.gif" />
+    <None Include="bin\Debug\gambar\staff.jpg" />
+    <None Include="bin\Debug\gambar\resto.jpg" />
+    <None Include="bin\Debug\gambar\setting.jpg" />
+    <None Include="bin\Debug\gambar\invoice.jpg" />
+    <None Include="bin\Debug\gambar\info.jpg" />
+    <None Include="bin\Debug\gambar\dollar.jpg" />
+    <None Include="bin\Debug\gambar\laporang.gif" />
+    <None Include="bin\Debug\gambar\fire.jpg" />
+    <None Include="bin\Debug\gambar\plus.gif" />
+    <None Include="bin\Debug\gambar\key.png" />
+    <None Include="bin\Debug\gambar\room.png" />
+    <None Include="bin\Debug\gambar\dollar.png" />
+    <None Include="bin\Debug\gambar\calender.png" />
+    <None Include="bin\Debug\gambar\service.png" />
+    <None Include="bin\Debug\gambar\maintenance.png" />
+    <None Include="bin\Debug\gambar\guest.png" />
+    <None Include="bin\Debug\gambar\staff.png" />
+    <None Include="bin\Debug\gambar\resto.png" />
+    <None Include="bin\Debug\gambar\setting.png" />
+    <None Include="bin\Debug\gambar\invoice.png" />
+    <None Include="bin\Debug\gambar\info.png" />
+    <None Include="bin\Debug\gambar\fire.png" />
+    <None Include="bin\Debug\gambar\plus.png" />
+    <None Include="bin\Debug\gambar\laporang.png" />
+    <None Include="bin\Debug\gambar\splash.jpg" />
+    <None Include="bin\Debug\gambar\splash_clean.jpg" />
+    <None Include="bin\Debug\gambar\menuUtama.jpg" />
+    <Content Include="lib\en\Microsoft.ReportViewer.WebForms.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\en\Microsoft.ReportViewer.WinForms.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Microsoft.ReportViewer.Common.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Microsoft.ReportViewer.WinForms.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\OpenAccess.targets')" Project="$(MSBuildExtensionsPath)\OpenAccess.targets" />
+</Project>

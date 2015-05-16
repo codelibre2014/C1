@@ -1,0 +1,649 @@
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+F:\Irwan\BookIn Central Reservation System_12012014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System_12022014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+F:\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Irwan\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+D:\Installer\BookIn Central Reservation System_12032014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+G:\Irwan\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+G:\Irwan\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+G:\Irwan\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe.config
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.exe
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem Booking Hotel.pdb
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.exe
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Sistem Booking Hotel.pdb
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+D:\Installer\BookIn Central Reservation System_12042014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+D:\Installer\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+F:\Irwan\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+F:\Irwan\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+F:\Irwan\BookIn Central Reservation System - Rilis 12122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 12122014 - Koreksi pending bill dan status kamar\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - Rilis 20122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 22122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 23122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\IRAWAN\Desktop\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Users\Kunto\Downloads\Work related\tabhotel_v4\Integrated\BookIn Central Reservation System - 24122014\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Controls.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Controls.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Imaging.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Math.dll
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Imaging.xml
+D:\Development\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Math.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.manifest
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.application
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Controls.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Imaging.dll
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Controls.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\bin\Debug\AForge.Imaging.xml
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe.manifest
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.application
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Program Files\BookIn Central Reservation System\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.config
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.pdb
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe.manifest
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.application
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.exe
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\BookIn Central Reservation System.pdb
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Controls.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Imaging.dll
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Controls.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\bin\Debug\AForge.Imaging.xml
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csprojResolveAssemblyReference.cache
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DataKamar.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormUtama.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.HapusKamar.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.kamar_Ubah_Hapus.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.TambahKamar.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.UbahKamar.resources
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.csproj.GenerateResource.Cache
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.exe.manifest
+C:\Program Files\BookIn Central Reservation System - tabHotel\Sistem Booking Hotel\obj\Debug\BookIn Central Reservation System.application

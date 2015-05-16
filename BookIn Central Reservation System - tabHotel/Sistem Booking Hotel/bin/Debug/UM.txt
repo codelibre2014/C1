@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">                          
+<!--<![endif]-->
+					<head>
+				    <meta charset="UTF-8" />
+				    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+				    <title>BookIn | PT Indo Surya Asia</title>
+				    <meta name="viewport" content="width=device-width, initial-scale=10" />
+				    <link rel="profile" href="http://gmpgorg/xfn/11" />
+				    <link rel="pingback" href="http://wwwindosuryaasiacom/xmlrpcphp" />
+				   
+				   <!-- Icons font support for IE6-7  -->
+				    <!--[if lt IE 8]>
+				      <script src="http://wwwindosuryaasiacom/wp-content/themes/customizr/inc/assets/css/fonts/lte-ie7js"></script>
+				    <![endif]-->
+				    <link rel="alternate" type="application/rss+xml" title="PT Indo Surya Asia &raquo; Feed" href="http://wwwindosuryaasiacom/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PT Indo Surya Asia &raquo; Comments Feed" href="http://wwwindosuryaasiacom/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="PT Indo Surya Asia &raquo; BookIn Comments Feed" href="http://wwwindosuryaasiacom/bookin/feed/" />
+<link rel='stylesheet' id='customizr-skin-css'  href='http://wwwindosuryaasiacom/wp-content/themes/customizr/inc/assets/css/bluemincss?ver=3123' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-style-css'  href='http://wwwindosuryaasiacom/wp-content/themes/customizr/stylecss?ver=3123' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyboxcss-css'  href='http://wwwindosuryaasiacom/wp-content/themes/customizr/inc/assets/js/fancybox/jqueryfancybox-134mincss?ver=392' type='text/css' media='all' />
+<script type='text/javascript' src='http://wwwindosuryaasiacom/wp-includes/js/jquery/jqueryjs?ver=1110'></script>
+<script type='text/javascript' src='http://wwwindosuryaasiacom/wp-includes/js/jquery/jquery-migrateminjs?ver=121'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TCParams = {"FancyBoxState":"1","FancyBoxAutoscale":"1","SliderName":"","SliderDelay":"","SliderHover":"1","SmoothScroll":"linear","ReorderBlocks":"1","CenterSlides":"1","HasComments":"","LeftSidebarClass":"span3lefttc-sidebar","RightSidebarClass":"span3righttc-sidebar","LoadBootstrap":"1","LoadModernizr":"1","LoadHolderJs":"1","LoadRetina":"1","LoadCustomizrScript":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wwwindosuryaasiacom/wp-content/themes/customizr/inc/assets/js/tc-scriptsminjs'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wwwindosuryaasiacom/xmlrpcphp?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wwwindosuryaasiacom/wp-includes/wlwmanifestxml" /> 
+<link rel='prev' title='Mitra Usaha' href='http://wwwindosuryaasiacom/partner-bisnis/' />
+<link rel='next' title='Test1' href='http://wwwindosuryaasiacom/test1/' />
+<meta name="generator" content="WordPress 392" />
+<link rel='canonical' href='http://wwwindosuryaasiacom/bookin/' />
+<link rel='shortlink' href='http://wwwindosuryaasiacom/?p=339' />
+	<style type="text/css">recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style id="option-custom-css" type="text/css">format-icon:before {
+	speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 10px;
+  opacity: 02;
+  position: relative;
+  top: 8px;
+  display: none;
+  font: normal normal 12em/1 &#039;entypo&#039;;
+}</style>				    <!--Icons size hack for IE8 and less -->
+				    <!--[if lt IE 9]>
+				      <link href="http://wwwindosuryaasiacom/wp-content/themes/customizr/inc/assets/css/fonts/ie8-hackscss" rel="stylesheet" type="text/css"/>
+				    <![endif]-->
+				</head>
+				
+	<body class="page page-id-339 page-template-default" itemscope itemtype="http://schemaorg/WebPage">
+		
+		
+	   	<header class="tc-header clearfix row-fluid" role="banner">
+			
+			
+							
+				
+		        <div class="brand span3">
+		        	<a class="site-logo" href="http://wwwindosuryaasiacom/" title="PT Indo Surya Asia | Solusi Teknologi Untuk Kemajuan Usaha Anda"><img src="http://wwwindosuryaasiacom/wp-content/uploads/2014/09/Indo_Surya_Asia_NoTextpng" alt="Back Home" width="447" height="185" style="max-width:250px;max-height:100px" /></a>		        </div> <!-- brand span3 -->
+
+		        
+		    
+		    
+		   
+		   <div class="container outside"><h2 class="site-description">Solusi Teknologi Untuk Kemajuan Usaha Anda</h2></div>
+	      	<div class="navbar-wrapper clearfix span9">
+
+	      		<div class="navbar notresp row-fluid pull-left">
+	      			<div class="navbar-inner" role="navigation">
+	      				<div class="row-fluid">
+	            			<div class="social-block span5"></div><h2 class="span7 inside site-description">Solusi Teknologi Untuk Kemajuan Usaha Anda</h2><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu2-container"><ul id="menu-mainmenu2" class="nav tc-hover-menu"><li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-13"><a href="http://wwwindosuryaasiacom">Beranda Depan</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-14"><a href="#">Bagaimana Kami Dapat Membantu Anda? <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://wwwindosuryaasiacom/business-intelligence/"><strong>Business Intelligence</strong></a></li>
+	<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="http://wwwindosuryaasiacom/laporan-laba-rugi/">Laporan Laba Rugi</a></li>
+	<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="http://wwwindosuryaasiacom/data-process-automation/">Data Process Automation</a></li>
+	<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="http://wwwindosuryaasiacom/forecasting/">Forecasting</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://wwwindosuryaasiacom/sistem-informasi/"><strong>Sistem Informasi</strong></a></li>
+	<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="http://wwwindosuryaasiacom/central-reservation-system/">Central Reservation System</a></li>
+	<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://wwwindosuryaasiacom/cloud-desktop-solution/">Cloud Desktop Solution</a></li>
+	<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="http://wwwindosuryaasiacom/custom-software-development/">Custom Software Development</a></li>
+	<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://wwwindosuryaasiacom/customer-relationship-management/">Customer Relationship Management</a></li>
+	<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="http://wwwindosuryaasiacom/akuntansi-perusahaan/">Akuntansi Perusahaan</a></li>
+	<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="http://wwwindosuryaasiacom/pengarsipan-digital/">Pengarsipan Digital</a></li>
+	<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://wwwindosuryaasiacom/enterprise-resource-planning/">Enterprise Resource Planning</a></li>
+	<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="http://wwwindosuryaasiacom/website-development/"><strong>Website Development</strong></a></li>
+	<li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="http://wwwindosuryaasiacom/website-hosting/">Website Hosting</a></li>
+	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://wwwindosuryaasiacom/situs-perusahaan/">Website Perusahaan</a></li>
+	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://wwwindosuryaasiacom/e-commerce/">Website E-Commerce</a></li>
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://wwwindosuryaasiacom/situs-real-estate/">Website Real Estate</a></li>
+	<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="http://wwwindosuryaasiacom/situs-polling-riset/">Website Polling Riset</a></li>
+	<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://wwwindosuryaasiacom/hardware-2/"><strong>Hardware</strong></a></li>
+	<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="http://wwwindosuryaasiacom/jaringan-komputer/">Jaringan Komputer</a></li>
+	<li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a href="http://wwwindosuryaasiacom/kartu-pelanggan-rfid/">Kartu Pelanggan RFID (segera tersedia)</a></li>
+	<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="http://wwwindosuryaasiacom/akses-biometrik/">Akses Biometrik (segera tersedia)</a></li>
+	<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="http://wwwindosuryaasiacom/sms-gateway/">SMS-Gateway (segera tersedia)</a></li>
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="http://wwwindosuryaasiacom/gps-tracking/">GPS-Tracking  (segera tersedia)</a></li>
+</ul>
+</li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-15"><a href="#">Sebuah Perkenalan Singkat <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="http://wwwindosuryaasiacom/riwayat-perusahaan/">Riwayat Perusahaan</a></li>
+	<li id="menu-item-220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="http://wwwindosuryaasiacom/visi-dan-misi/">Visi dan Misi</a></li>
+	<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="http://wwwindosuryaasiacom/para-profesional/">Para Profesional</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="http://wwwindosuryaasiacom/partner-bisnis/">Mitra Usaha</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="http://wwwindosuryaasiacom/klien-kami/">Klien Kami</a></li>
+	<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="http://wwwindosuryaasiacom/hubungi_kami/">Hubungi Kami</a></li>
+</ul>
+</li>
+</ul></div></div>	            		</div><!-- row-fluid -->
+	            	</div><!-- /navbar-inner -->
+	            </div><!-- /navbar notresp -->
+
+	            <div class="navbar resp">
+	            	<div class="navbar-inner" role="navigation">
+	            		<div class="social-block "></div><h2 class="span7 inside site-description">Solusi Teknologi Untuk Kemajuan Usaha Anda</h2><button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="nav-collapse collapse tc-hover-menu-wrapper"><div class="menu-mainmenu2-container"><ul id="menu-mainmenu2-1" class="nav tc-hover-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-13"><a href="http://wwwindosuryaasiacom">Beranda Depan</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-14"><a href="#">Bagaimana Kami Dapat Membantu Anda? <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://wwwindosuryaasiacom/business-intelligence/"><strong>Business Intelligence</strong></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="http://wwwindosuryaasiacom/laporan-laba-rugi/">Laporan Laba Rugi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="http://wwwindosuryaasiacom/data-process-automation/">Data Process Automation</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="http://wwwindosuryaasiacom/forecasting/">Forecasting</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://wwwindosuryaasiacom/sistem-informasi/"><strong>Sistem Informasi</strong></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="http://wwwindosuryaasiacom/central-reservation-system/">Central Reservation System</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://wwwindosuryaasiacom/cloud-desktop-solution/">Cloud Desktop Solution</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="http://wwwindosuryaasiacom/custom-software-development/">Custom Software Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://wwwindosuryaasiacom/customer-relationship-management/">Customer Relationship Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="http://wwwindosuryaasiacom/akuntansi-perusahaan/">Akuntansi Perusahaan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="http://wwwindosuryaasiacom/pengarsipan-digital/">Pengarsipan Digital</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="http://wwwindosuryaasiacom/enterprise-resource-planning/">Enterprise Resource Planning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="http://wwwindosuryaasiacom/website-development/"><strong>Website Development</strong></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-218"><a href="http://wwwindosuryaasiacom/website-hosting/">Website Hosting</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://wwwindosuryaasiacom/situs-perusahaan/">Website Perusahaan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://wwwindosuryaasiacom/e-commerce/">Website E-Commerce</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="http://wwwindosuryaasiacom/situs-real-estate/">Website Real Estate</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="http://wwwindosuryaasiacom/situs-polling-riset/">Website Polling Riset</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="http://wwwindosuryaasiacom/hardware-2/"><strong>Hardware</strong></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="http://wwwindosuryaasiacom/jaringan-komputer/">Jaringan Komputer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a href="http://wwwindosuryaasiacom/kartu-pelanggan-rfid/">Kartu Pelanggan RFID (segera tersedia)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="http://wwwindosuryaasiacom/akses-biometrik/">Akses Biometrik (segera tersedia)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="http://wwwindosuryaasiacom/sms-gateway/">SMS-Gateway (segera tersedia)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="http://wwwindosuryaasiacom/gps-tracking/">GPS-Tracking  (segera tersedia)</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-15"><a href="#">Sebuah Perkenalan Singkat <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="http://wwwindosuryaasiacom/riwayat-perusahaan/">Riwayat Perusahaan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220"><a href="http://wwwindosuryaasiacom/visi-dan-misi/">Visi dan Misi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="http://wwwindosuryaasiacom/para-profesional/">Para Profesional</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="http://wwwindosuryaasiacom/partner-bisnis/">Mitra Usaha</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="http://wwwindosuryaasiacom/klien-kami/">Klien Kami</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="http://wwwindosuryaasiacom/hubungi_kami/">Hubungi Kami</a></li>
+</ul>
+</li>
+</ul></div></div>	            	</div><!-- /navbar-inner -->
+	      		</div><!-- /navbar resp -->
+
+	    	</div><!-- /navbar-wrapper -->
+
+	        
+		</header>
+
+		<div id="main-wrapper" class="container">
+
+    <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin"><a href="http://wwwindosuryaasiacom" title="PT Indo Surya Asia" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <span class="trail-end">BookIn</span></div><div class="tc-hot-crumble container" role="navigation"><div class="row"><div class="span12"></div></div></div>    
+    <div class="container" role="main">
+        <div class="row column-content-wrapper">
+
+                     
+        <div class="span3 left tc-sidebar">
+           <div id="left" class="widget-area" role="complementary">
+                                                              </div><!-- #left or #right-->
+        </div><!--tc-sidebar -->
+
+                        
+                <div id="content" class="span9 article-container">
+                    
+                    
+                        
+                                                                                    
+                                                                    <article id="page-339" class="post-339 page type-page status-publish hentry row-fluid">
+                                        
+          <header class="entry-header">
+            
+            <h1 class="entry-title format-icon">BookIn  </h1><hr class="featurette-divider __before_content">
+          </header><!-- entry-header -->
+
+                        
+                <div class="entry-content">
+                    <form action="http://demo1indosuryaasiacom/BookIn/" method="post"><input class="Download" name="submit" type="submit" value="Download" /></p>
+<p>BookIn-1002</p>
+</form>
+                </div>
+
+                                                    </article>
+                                
+                            
+                        
+                    
+                </div><!--article-container -->
+
+           
+        </div><!--row -->
+    </div><!-- container role: main -->
+
+    
+</div><!--#main-wrapper"-->
+
+		<!-- FOOTER -->
+		<footer id="footer" class="">
+		 		    				 <div class="colophon">
+			 	<div class="container">
+			 		<div class="row-fluid">
+					    <div class="span4 social-block pull-left"></div><div class="span4 credits"><p>&middot; &copy; 2014 <a href="http://wwwindosuryaasiacom" title="PT Indo Surya Asia" rel="bookmark">PT Indo Surya Asia</a> &middot;</p></div><div class="span4 backtop"><p class="pull-right"><a class="back-to-top" href="#">Back to top</a></p></div>	      			</div><!-- row-fluid -->
+	      		</div><!-- container -->
+	      	</div><!-- colophon -->
+	    			</footer>
+		<script type='text/javascript' src='http://wwwindosuryaasiacom/wp-includes/js/comment-replyminjs?ver=392'></script>
+<script type='text/javascript' src='http://wwwindosuryaasiacom/wp-includes/js/jquery/ui/jqueryuicoreminjs?ver=1104'></script>
+	</body>
+	</html>
