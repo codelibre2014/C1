@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTopCorp" targetNamespace="http://tempuri.org/DSTopCorp.xsd" xmlns:mstns="http://tempuri.org/DSTopCorp.xsd" xmlns="http://tempuri.org/DSTopCorp.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TopCorpTableAdapter" GeneratorDataComponentClassName="TopCorpTableAdapter" Name="TopCorp" UserDataComponentName="TopCorpTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectName="hoteldb.dbo.Tamu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select 
+top 10
+sum(byr.jumlahpayment) spending,convert(date,max(b.checkout)) checkout_terakhir,t.perusahaan,t.tamu,t.telepon,t.email
+--top 100 * 
+from 
+booking b
+inner join 
+reservasi r
+on 
+b.booking_id = r.booking_id
+inner join 
+pembayaran byr 
+on 
+b.booking_id = byr.booking_id
+inner join 
+Tamu t
+on 
+b.tamu_id =t.tamu_id
+and len(t.perusahaan) &gt; 2
+group by t.perusahaan,t.tamu,t.telepon,t.email
+order by sum(byr.jumlahpayment) desc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="spending" DataSetColumn="spending" />
+              <Mapping SourceColumn="checkout_terakhir" DataSetColumn="checkout_terakhir" />
+              <Mapping SourceColumn="perusahaan" DataSetColumn="perusahaan" />
+              <Mapping SourceColumn="tamu" DataSetColumn="tamu" />
+              <Mapping SourceColumn="telepon" DataSetColumn="telepon" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTopCorp" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DSTopCorp" msprop:Generator_UserDSName="DSTopCorp">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TopCorp" msprop:Generator_TableClassName="TopCorpDataTable" msprop:Generator_TableVarName="tableTopCorp" msprop:Generator_TablePropName="TopCorp" msprop:Generator_RowDeletingName="TopCorpRowDeleting" msprop:Generator_RowChangingName="TopCorpRowChanging" msprop:Generator_RowEvHandlerName="TopCorpRowChangeEventHandler" msprop:Generator_RowDeletedName="TopCorpRowDeleted" msprop:Generator_UserTableName="TopCorp" msprop:Generator_RowChangedName="TopCorpRowChanged" msprop:Generator_RowEvArgName="TopCorpRowChangeEvent" msprop:Generator_RowClassName="TopCorpRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="spending" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnspending" msprop:Generator_ColumnPropNameInRow="spending" msprop:Generator_ColumnPropNameInTable="spendingColumn" msprop:Generator_UserColumnName="spending" type="xs:long" minOccurs="0" />
+              <xs:element name="checkout_terakhir" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncheckout_terakhir" msprop:Generator_ColumnPropNameInRow="checkout_terakhir" msprop:Generator_ColumnPropNameInTable="checkout_terakhirColumn" msprop:Generator_UserColumnName="checkout_terakhir" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="perusahaan" msprop:Generator_ColumnVarNameInTable="columnperusahaan" msprop:Generator_ColumnPropNameInRow="perusahaan" msprop:Generator_ColumnPropNameInTable="perusahaanColumn" msprop:Generator_UserColumnName="perusahaan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tamu" msprop:Generator_ColumnVarNameInTable="columntamu" msprop:Generator_ColumnPropNameInRow="tamu" msprop:Generator_ColumnPropNameInTable="tamuColumn" msprop:Generator_UserColumnName="tamu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telepon" msprop:Generator_ColumnVarNameInTable="columntelepon" msprop:Generator_ColumnPropNameInRow="telepon" msprop:Generator_ColumnPropNameInTable="teleponColumn" msprop:Generator_UserColumnName="telepon" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

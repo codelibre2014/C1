@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="infoPendapatanRestoran" targetNamespace="http://tempuri.org/infoPendapatanRestoran.xsd" xmlns:mstns="http://tempuri.org/infoPendapatanRestoran.xsd" xmlns="http://tempuri.org/infoPendapatanRestoran.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="infoPendapatanRestoranTableAdapter" GeneratorDataComponentClassName="infoPendapatanRestoranTableAdapter" Name="infoPendapatanRestoran" UserDataComponentName="infoPendapatanRestoranTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT convert(date,p.tggalpayment) as tgglpayment, p.payment,Null NoKamar, s.nama, p.jumlahpayment
+FROM pembayaran p inner join Staff s on p.staff_id=s.staff_id
+where p.reservasi_id is null
+UNION
+select CONVERT(date, hr.TglPesan) as tgglpayment, 'Tagihan' payment, hr.NoKamar, '-' nama, hr.Biaya as jumlahpayment
+from HRestaurant hr
+where hr.flag = 'B'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tgglpayment" DataSetColumn="tgglpayment" />
+              <Mapping SourceColumn="payment" DataSetColumn="payment" />
+              <Mapping SourceColumn="nama" DataSetColumn="nama" />
+              <Mapping SourceColumn="jumlahpayment" DataSetColumn="jumlahpayment" />
+              <Mapping SourceColumn="NoKamar" DataSetColumn="NoKamar" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="infoPendapatanRestoran" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="infoPendapatanRestoran" msprop:Generator_UserDSName="infoPendapatanRestoran">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="infoPendapatanRestoran" msprop:Generator_TableClassName="infoPendapatanRestoranDataTable" msprop:Generator_TableVarName="tableinfoPendapatanRestoran" msprop:Generator_TablePropName="_infoPendapatanRestoran" msprop:Generator_RowDeletingName="infoPendapatanRestoranRowDeleting" msprop:Generator_RowChangingName="infoPendapatanRestoranRowChanging" msprop:Generator_RowEvHandlerName="infoPendapatanRestoranRowChangeEventHandler" msprop:Generator_RowDeletedName="infoPendapatanRestoranRowDeleted" msprop:Generator_UserTableName="infoPendapatanRestoran" msprop:Generator_RowChangedName="infoPendapatanRestoranRowChanged" msprop:Generator_RowEvArgName="infoPendapatanRestoranRowChangeEvent" msprop:Generator_RowClassName="infoPendapatanRestoranRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tgglpayment" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntgglpayment" msprop:Generator_ColumnPropNameInRow="tgglpayment" msprop:Generator_ColumnPropNameInTable="tgglpaymentColumn" msprop:Generator_UserColumnName="tgglpayment" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="payment" msprop:Generator_ColumnVarNameInTable="columnpayment" msprop:Generator_ColumnPropNameInRow="payment" msprop:Generator_ColumnPropNameInTable="paymentColumn" msprop:Generator_UserColumnName="payment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="jumlahpayment" msprop:Generator_ColumnVarNameInTable="columnjumlahpayment" msprop:Generator_ColumnPropNameInRow="jumlahpayment" msprop:Generator_ColumnPropNameInTable="jumlahpaymentColumn" msprop:Generator_UserColumnName="jumlahpayment" type="xs:long" minOccurs="0" />
+              <xs:element name="NoKamar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNoKamar" msprop:Generator_ColumnPropNameInRow="NoKamar" msprop:Generator_ColumnPropNameInTable="NoKamarColumn" msprop:Generator_UserColumnName="NoKamar" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

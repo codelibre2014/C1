@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InfoTandaTangan" targetNamespace="http://tempuri.org/InfoTandaTangan.xsd" xmlns:mstns="http://tempuri.org/InfoTandaTangan.xsd" xmlns="http://tempuri.org/InfoTandaTangan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTandaTanganTableAdapter" GeneratorDataComponentClassName="DataTableTandaTanganTableAdapter" Name="DataTableTandaTangan" UserDataComponentName="DataTableTandaTanganTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Reservasi.reservasi_id, Reservasi.booking_id, Reservasi.checkin, Reservasi.checkout, Reservasi.kamar_no, Tamu.tamu
+FROM            Reservasi INNER JOIN
+                         Tamu ON Reservasi.tamu_id = Tamu.tamu_id
+WHERE        (CONVERT(date, Reservasi.checkin) &lt;= CONVERT(date, SYSDATETIME()))</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="reservasi_id" DataSetColumn="reservasi_id" />
+              <Mapping SourceColumn="booking_id" DataSetColumn="booking_id" />
+              <Mapping SourceColumn="checkin" DataSetColumn="checkin" />
+              <Mapping SourceColumn="checkout" DataSetColumn="checkout" />
+              <Mapping SourceColumn="kamar_no" DataSetColumn="kamar_no" />
+              <Mapping SourceColumn="tamu" DataSetColumn="tamu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InfoTandaTangan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="InfoTandaTangan" msprop:Generator_UserDSName="InfoTandaTangan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableTandaTangan" msprop:Generator_TableClassName="DataTableTandaTanganDataTable" msprop:Generator_TableVarName="tableDataTableTandaTangan" msprop:Generator_TablePropName="DataTableTandaTangan" msprop:Generator_RowDeletingName="DataTableTandaTanganRowDeleting" msprop:Generator_RowChangingName="DataTableTandaTanganRowChanging" msprop:Generator_RowEvHandlerName="DataTableTandaTanganRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableTandaTanganRowDeleted" msprop:Generator_UserTableName="DataTableTandaTangan" msprop:Generator_RowChangedName="DataTableTandaTanganRowChanged" msprop:Generator_RowEvArgName="DataTableTandaTanganRowChangeEvent" msprop:Generator_RowClassName="DataTableTandaTanganRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reservasi_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnreservasi_id" msprop:Generator_ColumnPropNameInRow="reservasi_id" msprop:Generator_ColumnPropNameInTable="reservasi_idColumn" msprop:Generator_UserColumnName="reservasi_id" type="xs:long" />
+              <xs:element name="booking_id" msprop:Generator_ColumnVarNameInTable="columnbooking_id" msprop:Generator_ColumnPropNameInRow="booking_id" msprop:Generator_ColumnPropNameInTable="booking_idColumn" msprop:Generator_UserColumnName="booking_id" type="xs:long" minOccurs="0" />
+              <xs:element name="checkin" msprop:Generator_ColumnVarNameInTable="columncheckin" msprop:Generator_ColumnPropNameInRow="checkin" msprop:Generator_ColumnPropNameInTable="checkinColumn" msprop:Generator_UserColumnName="checkin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="checkout" msprop:Generator_ColumnVarNameInTable="columncheckout" msprop:Generator_ColumnPropNameInRow="checkout" msprop:Generator_ColumnPropNameInTable="checkoutColumn" msprop:Generator_UserColumnName="checkout" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="kamar_no" msprop:Generator_ColumnVarNameInTable="columnkamar_no" msprop:Generator_ColumnPropNameInRow="kamar_no" msprop:Generator_ColumnPropNameInTable="kamar_noColumn" msprop:Generator_UserColumnName="kamar_no" type="xs:int" minOccurs="0" />
+              <xs:element name="tamu" msprop:Generator_ColumnVarNameInTable="columntamu" msprop:Generator_ColumnPropNameInRow="tamu" msprop:Generator_ColumnPropNameInTable="tamuColumn" msprop:Generator_UserColumnName="tamu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

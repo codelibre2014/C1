@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="laporanWNA" targetNamespace="http://tempuri.org/laporanWNA.xsd" xmlns:mstns="http://tempuri.org/laporanWNA.xsd" xmlns="http://tempuri.org/laporanWNA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TamuTableAdapter" GeneratorDataComponentClassName="TamuTableAdapter" Name="Tamu" UserDataComponentName="TamuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectName="hoteldb.dbo.Tamu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        t.tamu, t.warganegara, t.alamat, t.kota, t.telepon, t.email, t.tanggallahir, t.noidentitas
+FROM            Tamu AS t INNER JOIN
+                         Reservasi AS r ON r.status = 'checkin' AND t.tamu_id = r.tamu_id
+WHERE        (t.jenisidentitas = 'Passpor')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tamu" DataSetColumn="tamu" />
+              <Mapping SourceColumn="warganegara" DataSetColumn="warganegara" />
+              <Mapping SourceColumn="alamat" DataSetColumn="alamat" />
+              <Mapping SourceColumn="kota" DataSetColumn="kota" />
+              <Mapping SourceColumn="telepon" DataSetColumn="telepon" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+              <Mapping SourceColumn="tanggallahir" DataSetColumn="tanggallahir" />
+              <Mapping SourceColumn="noidentitas" DataSetColumn="noidentitas" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="laporanWNA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="laporanWNA" msprop:Generator_UserDSName="laporanWNA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tamu" msprop:Generator_TableClassName="TamuDataTable" msprop:Generator_TableVarName="tableTamu" msprop:Generator_RowChangedName="TamuRowChanged" msprop:Generator_TablePropName="Tamu" msprop:Generator_RowDeletingName="TamuRowDeleting" msprop:Generator_RowChangingName="TamuRowChanging" msprop:Generator_RowEvHandlerName="TamuRowChangeEventHandler" msprop:Generator_RowDeletedName="TamuRowDeleted" msprop:Generator_RowClassName="TamuRow" msprop:Generator_UserTableName="Tamu" msprop:Generator_RowEvArgName="TamuRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tamu" msprop:Generator_ColumnVarNameInTable="columntamu" msprop:Generator_ColumnPropNameInRow="tamu" msprop:Generator_ColumnPropNameInTable="tamuColumn" msprop:Generator_UserColumnName="tamu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="warganegara" msprop:Generator_ColumnVarNameInTable="columnwarganegara" msprop:Generator_ColumnPropNameInRow="warganegara" msprop:Generator_ColumnPropNameInTable="warganegaraColumn" msprop:Generator_UserColumnName="warganegara" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="alamat" msprop:Generator_ColumnVarNameInTable="columnalamat" msprop:Generator_ColumnPropNameInRow="alamat" msprop:Generator_ColumnPropNameInTable="alamatColumn" msprop:Generator_UserColumnName="alamat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kota" msprop:Generator_ColumnVarNameInTable="columnkota" msprop:Generator_ColumnPropNameInRow="kota" msprop:Generator_ColumnPropNameInTable="kotaColumn" msprop:Generator_UserColumnName="kota" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telepon" msprop:Generator_ColumnVarNameInTable="columntelepon" msprop:Generator_ColumnPropNameInRow="telepon" msprop:Generator_ColumnPropNameInTable="teleponColumn" msprop:Generator_UserColumnName="telepon" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tanggallahir" msprop:Generator_ColumnVarNameInTable="columntanggallahir" msprop:Generator_ColumnPropNameInRow="tanggallahir" msprop:Generator_ColumnPropNameInTable="tanggallahirColumn" msprop:Generator_UserColumnName="tanggallahir" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="noidentitas" msprop:Generator_ColumnVarNameInTable="columnnoidentitas" msprop:Generator_ColumnPropNameInRow="noidentitas" msprop:Generator_ColumnPropNameInTable="noidentitasColumn" msprop:Generator_UserColumnName="noidentitas" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

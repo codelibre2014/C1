@@ -1,0 +1,41 @@
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WebForms.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\lib\en\Microsoft.ReportViewer.WinForms.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\lib\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Controls.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Video.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Ionic.Zip.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Microsoft.VisualBasic.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Imaging.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Controls.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Video.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Video.DirectShow.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Ionic.Zip.pdb
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Ionic.Zip.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\AForge.Imaging.xml
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.DatabaseConnectionForm.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.FormSerial.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Login.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.ProgressIndicator.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Properties.Resources.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.csproj.GenerateResource.Cache
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\RdlCompile.cache
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\RdlCompile.compiled
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Gelato Paradise.exe.config
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Gelato Paradise.exe
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Gelato Paradise.pdb
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.exe
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.pdb
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Sistem_Booking_Hotel.Workstation.resources
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.csprojResolveAssemblyReference.cache
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Gelato Paradise.exe.manifest
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Gelato Paradise.application
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.exe.manifest
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\obj\Debug\Gelato Paradise.application
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.dll
+C:\Program Files\Gelato Paradise\Sistem Booking Hotel\bin\Debug\Telerik.OpenAccess.xml

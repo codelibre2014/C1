@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="infoTagihanLunasDataSet" targetNamespace="http://tempuri.org/infoTagihanLunasDataSet.xsd" xmlns:mstns="http://tempuri.org/infoTagihanLunasDataSet.xsd" xmlns="http://tempuri.org/infoTagihanLunasDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HotelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HotelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sistem_Booking_Hotel.Properties.Settings.GlobalReference.Default.HotelConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BookingTableAdapter" GeneratorDataComponentClassName="BookingTableAdapter" Name="Booking" UserDataComponentName="BookingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HotelConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select
+a.*,t.tamu,
+case when res_utang is null then 'lunas' else 'utang' end Pelunasan
+--tanggal_id,sum(a.harga) harga,sum(a.diskon) diskon, a.item_tipe,case when res_utang is null then 'lunas' else 'utang' end pelunasan
+from
+(
+    select
+    tgl.tanggal_id,
+    r.reservasi_id,
+    r.tamu_id,
+    r.kamar_no,
+    --bd.harga*
+    case
+    CHOOSE(DATEPART(dw, convert(date,tgl.tanggal_id)), 1,0,0,0,0,0,1)
+    when 1 then h.harga_weekend
+    else h.harga end harga,
+    case
+    CHOOSE(DATEPART(dw, convert(date,tgl.tanggal_id)), 1,0,0,0,0,0,1)
+    when 1 then h.harga_weekend
+    else h.harga end
+    *
+    (1-bd.harga) diskon,
+    case
+    CHOOSE(DATEPART(dw, convert(date,tgl.tanggal_id)), 1,0,0,0,0,0,1)
+    when 1 then h.harga_weekend
+    else h.harga end
+    *
+    bd.harga tagihan,
+    'Kamar' item_tipe
+    from
+    Reservasi r
+    inner join
+    Tanggal tgl
+    on
+    tgl.tanggal_id between convert(date,checkin) and convert(date,realcheckout)
+    inner join
+    Kamar k
+    on
+    r.kamar_no = k.kamar_no
+    inner join
+    Harga h
+    on
+    h.tanggal_id = tgl.tanggal_id
+    and
+    h.kamar_tipe_id = k.kamar_tipe_id
+    inner join
+    Booking b
+    on
+    b.booking_id = r.booking_id
+    inner join
+    Booking_Diskon bd
+    on
+    bd.booking_diskon_id =
+    b.booking_diskon_id
+    where
+    --tgl.
+    --tgl.tanggal_id = @tgl
+    tgl.tahun = @tahun
+    and
+    tgl.bulan = @bulan
+
+    union
+
+    select
+    convert(date,psn.tgl_pemesanan) tanggal_id,psn.reservasi_id
+    ,r.tamu_id,r.kamar_no,psn.harga,0 diskon,psn.harga tagihan
+    ,it.item_tipe
+    from
+    Pemesanan psn
+    inner join
+    Item i
+    on
+    psn.item_id = i.item_id
+    inner join
+    Item_Tipe it
+    on
+    it.item_tipe_id = i.item_tipe_id
+    inner join
+    Reservasi r
+    on
+    psn.reservasi_id = r.reservasi_id
+    where
+    --psn.tgl_pemesanan = @tgl
+    year(psn.tgl_pemesanan) = @tahun
+    and
+    month(psn.tgl_pemesanan) = @bulan
+
+)a
+left outer join
+(
+    select
+r.reservasi_id res_utang
+from
+(
+select b.booking_id, b.tgl_booking, b.tamu,
+b.utang   
+from
+(
+select bok.booking_id, bok.tgl_booking, t.tamu,
+    (((select bd.harga*100 from Booking_Diskon bd where bd.booking_diskon_id=bok.booking_diskon_id)
+    *
+    (select sum(tag_kamar) from Reservasi where booking_id=bok.booking_id and status='checkout')
+    /100
+    )+
+    (select sum(tag_restoran) from Reservasi where booking_id=bok.booking_id and status='checkout')
+    )-
+    ISNULL((select sum(jumlahpayment) from pembayaran where booking_id=bok.booking_id),0)
+    as utang
+from
+(
+select distinct booking_id
+from
+(
+select booking_id from Reservasi where status='checkout'
+group by booking_id
+union
+select booking_id from Reservasi where status='checkin'
+group by booking_id
+union
+select booking_id from Reservasi where status='booking'
+group by booking_id
+)a
+)a inner join Booking bok on a.booking_id= bok.booking_id
+inner join Tamu t on bok.tamu_id=t.tamu_id
+)b
+where b.utang &gt; 100
+)utang
+inner join
+Reservasi r
+on utang.booking_id = r.booking_id
+)utang
+on a.reservasi_id = utang.res_utang
+inner join
+tamu t
+on
+a.tamu_id = t.tamu_id</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="tahun" ColumnName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@tahun" Precision="0" Scale="0" Size="4" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="bulan" ColumnName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@bulan" Precision="0" Scale="0" Size="4" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="tamu_id" DataSetColumn="tamu_id" />
+              <Mapping SourceColumn="tanggal_id" DataSetColumn="tanggal_id" />
+              <Mapping SourceColumn="reservasi_id" DataSetColumn="reservasi_id" />
+              <Mapping SourceColumn="kamar_no" DataSetColumn="kamar_no" />
+              <Mapping SourceColumn="harga" DataSetColumn="harga" />
+              <Mapping SourceColumn="diskon" DataSetColumn="diskon" />
+              <Mapping SourceColumn="tagihan" DataSetColumn="tagihan" />
+              <Mapping SourceColumn="item_tipe" DataSetColumn="item_tipe" />
+              <Mapping SourceColumn="tamu" DataSetColumn="tamu" />
+              <Mapping SourceColumn="Pelunasan" DataSetColumn="Pelunasan" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="infoTagihanLunasDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="infoTagihanLunasDataSet" msprop:Generator_UserDSName="infoTagihanLunasDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Booking" msprop:Generator_TableClassName="BookingDataTable" msprop:Generator_TableVarName="tableBooking" msprop:Generator_TablePropName="Booking" msprop:Generator_RowDeletingName="BookingRowDeleting" msprop:Generator_RowChangingName="BookingRowChanging" msprop:Generator_RowEvHandlerName="BookingRowChangeEventHandler" msprop:Generator_RowDeletedName="BookingRowDeleted" msprop:Generator_UserTableName="Booking" msprop:Generator_RowChangedName="BookingRowChanged" msprop:Generator_RowEvArgName="BookingRowChangeEvent" msprop:Generator_RowClassName="BookingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tamu_id" msprop:Generator_ColumnVarNameInTable="columntamu_id" msprop:Generator_ColumnPropNameInRow="tamu_id" msprop:Generator_ColumnPropNameInTable="tamu_idColumn" msprop:Generator_UserColumnName="tamu_id" type="xs:long" minOccurs="0" />
+              <xs:element name="tanggal_id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntanggal_id" msprop:Generator_ColumnPropNameInRow="tanggal_id" msprop:Generator_ColumnPropNameInTable="tanggal_idColumn" msprop:Generator_UserColumnName="tanggal_id" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="reservasi_id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnreservasi_id" msprop:Generator_ColumnPropNameInRow="reservasi_id" msprop:Generator_ColumnPropNameInTable="reservasi_idColumn" msprop:Generator_UserColumnName="reservasi_id" type="xs:long" minOccurs="0" />
+              <xs:element name="kamar_no" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnkamar_no" msprop:Generator_ColumnPropNameInRow="kamar_no" msprop:Generator_ColumnPropNameInTable="kamar_noColumn" msprop:Generator_UserColumnName="kamar_no" type="xs:int" minOccurs="0" />
+              <xs:element name="harga" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnharga" msprop:Generator_ColumnPropNameInRow="harga" msprop:Generator_ColumnPropNameInTable="hargaColumn" msprop:Generator_UserColumnName="harga" type="xs:double" minOccurs="0" />
+              <xs:element name="diskon" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndiskon" msprop:Generator_ColumnPropNameInRow="diskon" msprop:Generator_ColumnPropNameInTable="diskonColumn" msprop:Generator_UserColumnName="diskon" type="xs:double" minOccurs="0" />
+              <xs:element name="tagihan" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntagihan" msprop:Generator_ColumnPropNameInRow="tagihan" msprop:Generator_ColumnPropNameInTable="tagihanColumn" msprop:Generator_UserColumnName="tagihan" type="xs:double" minOccurs="0" />
+              <xs:element name="item_tipe" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnitem_tipe" msprop:Generator_ColumnPropNameInRow="item_tipe" msprop:Generator_ColumnPropNameInTable="item_tipeColumn" msprop:Generator_UserColumnName="item_tipe" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tamu" msprop:Generator_ColumnVarNameInTable="columntamu" msprop:Generator_ColumnPropNameInRow="tamu" msprop:Generator_ColumnPropNameInTable="tamuColumn" msprop:Generator_UserColumnName="tamu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pelunasan" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPelunasan" msprop:Generator_ColumnPropNameInRow="Pelunasan" msprop:Generator_ColumnPropNameInTable="PelunasanColumn" msprop:Generator_UserColumnName="Pelunasan" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

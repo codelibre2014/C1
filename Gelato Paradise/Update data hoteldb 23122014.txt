@@ -1,0 +1,6 @@
+	       (Reservasi ID)
+Setiono Salim (114048) --> Kurangi 3.250 di Pembayarann
+Gianto (113879) --> Set DownPayment 0 di Reservasi
+Jenny Leonita (114059) --> Set Payment Tranfer Debit di Pembayaran
+
+
